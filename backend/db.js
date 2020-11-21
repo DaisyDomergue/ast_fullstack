@@ -6,4 +6,4 @@ mongoose.connect('mongodb://localhost:27017/ast_db',{useNewUrlParser:true,useUni
             console.log('Mongodb connection succeeded.')
         else
             console.log('Error connecting MongoDB : ' + JSON.stringify(err, undefined, 2))
-    })
+})

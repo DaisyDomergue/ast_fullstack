@@ -12,7 +12,6 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    console.log("posting new user")
     var newRecord = new Employee({
         Name: req.body.Name,
         Dob: req.body.Dob,
